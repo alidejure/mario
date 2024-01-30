@@ -6,7 +6,7 @@
 <title>Mario. - Multipurpose HTML Template</title> 
 
 <!-- Favicons -->
-<link rel="shortcut icon" href="favicon.png">
+<link rel="shortcut icon" href="">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
@@ -33,7 +33,8 @@
     <header class="navbar">
       <div class="container">
         <a href="home-agency.html#" class="brand js-target-scroll">
-          Mario.
+          <img src="img/logo.png" class="desktop-logo">
+          <img src="img/logo2.png" class="mobile-logo">
         </a>
 
         <!-- Navbar Collapse -->
@@ -123,6 +124,15 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+  }
+  .navbar.affix .desktop-logo{
+    display: none;
+  }
+  .mobile-logo{
+    display: none;
+  }
+  .navbar.affix .mobile-logo{
+    display: block;
   }
   .navbar.affix .nav-desctop-list > li > a.btn{
     color: #fff;
