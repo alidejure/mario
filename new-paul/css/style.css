@@ -3294,6 +3294,76 @@ footer .row-base.row-space{
 .row-blog .col-space.col-base{
   margin-top: 0;
 }
+.faq-sec h2{
+  text-align: center;
+  margin-bottom: 48px;
+}
+.faq-sec{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.faq-sec #accordion .panel-body{
+  border-top: 0;
+  padding: 0 20px 25px;
+}
+.faq-sec #accordion .panel{
+	border: none !important;
+	box-shadow: -2px 1px 27px 0 rgba(10, 0, 48, .08);
+    -webkit-box-shadow: -2px 1px 27px 0 rgba(10, 0, 48, .08);
+    -moz-box-shadow: -2px 1px 27px 0 rgba(10, 0, 48, .08);
+	margin-bottom: 25px !important;
+	border-radius: 10px !important;
+
+	/* background: #ffcca1 !important;
+    border-radius: 20px !important; */
+}
+.faq-sec #accordion .panel-heading a[aria-expanded="true"]:after{
+  transform: rotate(180deg);
+}
+.faq-sec #accordion .panel-heading a::after{
+	content: '\f078';
+  transition: all 0.2s;
+    font-family: 'FontAwesome';
+    background: none !important;
+    position: absolute;
+	right: -30px;
+    /* top: 29px; */
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 14px;
+    height: 14px;
+    font-size: 15px;
+    color: #ff7400;
+    display: inline-table;
+}
+.faq-sec #accordion .accordion-body{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.faq-sec #accordion .panel-heading a{
+  display: block;
+  position: relative;
+  padding-top: 25px;  
+  padding-bottom: 25px;
+}
+.faq-sec #accordion .panel-heading{
+  position: relative;
+	font-size: 20px;
+	background: transparent !important;
+	padding: 0px 60px 0px 21px;
+	border-radius: 6px;
+	border: none !important;
+	box-shadow: none !important;
+    font-weight: 600;
+	color: #333 !important;
+	/* border-top-right-radius: 6px !important;
+	border-top-left-radius: 6px !important; */
+}
+.faq-sec #accordion{
+	max-width: 850px;
+    margin: auto;
+}
 @media only screen and (max-width:1100px){
   .banner-content {
     padding: 100px 0;
