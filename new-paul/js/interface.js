@@ -282,7 +282,9 @@
 	    itemsDesktopSmall : [980,2],
 	    itemsTablet: [767,1],
 	    itemsMobile : [479,1],
-	    pagination:true,
+	    // pagination:true,
+		slideBy: 1,
+		nav: true,
 	 	autoHeight : true
 	});
 
