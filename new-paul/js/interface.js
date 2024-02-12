@@ -277,10 +277,10 @@
 
 
 	$(".js-client-carousel").owlCarousel({
-		items : 1,
-	    itemsDesktop : [1400,1],
-	    itemsDesktopSmall : [980,1],
-	    itemsTablet: [768,1],
+		items : 3,
+	    itemsDesktop : [1400,3],
+	    itemsDesktopSmall : [980,2],
+	    itemsTablet: [767,1],
 	    itemsMobile : [479,1],
 	    pagination:true,
 	 	autoHeight : true
